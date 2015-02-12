@@ -1,4 +1,4 @@
-package interviewprep;
+package java;
 
 import java.io.*;
 import java.util.*;
