@@ -1,31 +1,46 @@
 package codeEval;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
+import java.io.*;
 
 public class Fizz {
 
 	public static void main(String[] args) throws IOException {
-		Scanner scanner = null;
-		// if (args.length > 0) {
-		File file = new File("C://Users/Honey Singh/Desktop/test3.txt");
-
 		try {
-			scanner = new Scanner(file);
-		} catch (Exception e) {
-			System.err.println("File not found: " + e.toString());
-			return;
+			File file = new File(args[0]);
+			BufferedReader in = new BufferedReader(new FileReader(file));
+			String line;
+			while ((line = in.readLine()) != null) {
+				if (!line.isEmpty()) {
+					String[] lineArray = line.split("\\s");
+					if (lineArray.length > 0) {
+						calculate(lineArray);
+					}
+				}
+			}
+		} catch (IOException e) {
+			System.out.println("File Read Error: " + e.getMessage());
 		}
-		// } else
-		// System.out.println("Please provide a file path.");
-		check(scanner);
 
 	}
 
-	private static void check(Scanner scanner) {
-		// TODO Auto-generated method stub
-		
+	private static void calculate(String[] arr) {
+		int x = Integer.parseInt(arr[0]);
+		int y = Integer.parseInt(arr[1]);
+		int n = Integer.parseInt(arr[2]);
+		for (int i = 1; i <= n; i++) {
+			if (i % x == 0 && i % y == 0) {
+				System.out.print("FB");
+			} else if (i % x == 0)
+				System.out.print("F");
+			else if (i % y == 0)
+				System.out.print("B");
+			else
+				System.out.print(i);
+			if (i != n)
+				System.out.print(" ");
+			else
+				System.out.println();
+		}
 	}
 
 }
