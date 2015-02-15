@@ -1,5 +1,5 @@
 package codeEval;
-
+//https://www.codeeval.com/open_challenges/96/
 import java.io.*;
 
 public class SwapCase {

@@ -1,5 +1,6 @@
 package codeEval;
 
+//https://www.codeeval.com/open_challenges/67/
 import java.io.*;
 public class HextoD {
     public static void main (String[] args) throws IOException {

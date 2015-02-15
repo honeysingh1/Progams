@@ -1,5 +1,5 @@
 package codeEval;
-
+//https://www.codeeval.com/open_challenges/104/
 import java.io.*;
 
 public class WordtoDig {

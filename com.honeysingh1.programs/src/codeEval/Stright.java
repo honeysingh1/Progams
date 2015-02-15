@@ -1,6 +1,7 @@
 package codeEval;
 
 //Prints the position of the given character in a string. If not found print -1.
+//https://www.codeeval.com/open_challenges/31/
 
 import java.io.*;
 

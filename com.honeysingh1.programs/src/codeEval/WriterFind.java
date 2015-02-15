@@ -1,6 +1,6 @@
 package codeEval;
 
-//https://www.codeeval.com/open_challenge_scores/?pkbid=97
+//https://www.codeeval.com/open_challenges/97/
 
 import java.io.BufferedReader;
 import java.io.File;

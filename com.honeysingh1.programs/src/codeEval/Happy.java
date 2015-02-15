@@ -1,6 +1,7 @@
 package codeEval;
 
 // Check if number is happy or not
+//https://www.codeeval.com/open_challenges/39/
 
 import java.io.*;
 import java.util.ArrayList;

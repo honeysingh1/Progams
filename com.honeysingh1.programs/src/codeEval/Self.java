@@ -1,6 +1,7 @@
 package codeEval;
 
 //Checks if a number is self - describing
+//https://www.codeeval.com/open_challenges/40/
 
 import java.io.*;
 

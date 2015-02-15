@@ -2,6 +2,7 @@ package codeEval;
 
 //checks if integers in one list are available in other
 // both lists in ascending order
+//https://www.codeeval.com/open_challenges/30/
 
 import java.io.*;
 

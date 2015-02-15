@@ -1,6 +1,7 @@
 package codeEval;
 
 // Program finds N mod M without inbuilt mod
+//https://www.codeeval.com/open_challenges/62/
 
 import java.io.*;
 

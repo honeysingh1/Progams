@@ -1,5 +1,6 @@
 package codeEval;
 /* Program calculates the largest prime palindrome in first 1000 integers*/
+//https://www.codeeval.com/open_challenges/3/
 
 public class PrimePalin {
 	public static void main(String[] args) {
