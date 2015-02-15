@@ -1,5 +1,6 @@
 package codeEval;
 
+
 import java.io.*;
 
 public class Tables {

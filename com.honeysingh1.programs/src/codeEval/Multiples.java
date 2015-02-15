@@ -1,5 +1,6 @@
 package codeEval;
 
+//https://www.codeeval.com/open_challenges/18/
 import java.io.*;
 
 public class Multiples {
