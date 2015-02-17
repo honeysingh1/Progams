@@ -38,6 +38,7 @@ public class CompSeq {
                 System.out.println(str);
             }
         }
+        buffer.close();
         System.exit(0);
     }
 }

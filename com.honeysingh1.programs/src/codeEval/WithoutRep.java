@@ -32,6 +32,7 @@ public class WithoutRep {
                 System.out.println(st);
             }
         }
+        buffer.close();
         System.exit(0);
     }
 }

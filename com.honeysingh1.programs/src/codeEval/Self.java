@@ -17,6 +17,7 @@ public class Self {
 					check(line);
 				}
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

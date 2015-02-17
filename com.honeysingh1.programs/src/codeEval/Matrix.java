@@ -48,6 +48,7 @@ public class Matrix {
 				
 			}
 		}
+		buffer.close();
 		System.exit(0);
 	}
 }

@@ -38,6 +38,7 @@ public class JugWZero {
             
             }
         }
+        buffer.close();
         System.exit(0);
     }
 }

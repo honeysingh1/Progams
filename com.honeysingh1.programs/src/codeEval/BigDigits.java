@@ -33,9 +33,11 @@ public class BigDigits {
 					}
 				}
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.print("File Read Error: " + e.getMessage());
 		}
+		
 		System.exit(0);
 	}
 

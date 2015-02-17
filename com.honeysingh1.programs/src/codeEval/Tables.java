@@ -18,6 +18,7 @@ public class Tables {
 				}
 			}
 			System.out.println(tot);
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

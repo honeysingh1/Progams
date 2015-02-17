@@ -14,7 +14,6 @@ public class Racing {
 			File file = new File(args[0]);
 			BufferedReader in = new BufferedReader(new FileReader(file));
 			String line;
-			int c = 0;
 			ArrayList<String> str = new ArrayList<String>();
 			while ((line = in.readLine()) != null) {
 				if (!line.isEmpty()) {
@@ -22,6 +21,7 @@ public class Racing {
 				}
 			}
 			calc(str);
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

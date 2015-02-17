@@ -42,6 +42,7 @@ public class Unique {
 						System.out.println();
 				}
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

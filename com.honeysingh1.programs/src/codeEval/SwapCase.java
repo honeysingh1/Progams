@@ -25,6 +25,7 @@ public class SwapCase {
 			}
 			System.out.println();
 		}
+		buffer.close();
 		System.exit(0);
 	}
 }

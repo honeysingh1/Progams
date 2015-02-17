@@ -32,6 +32,7 @@ public class Swap {
                 
             }
         }
+        buffer.close();
         System.exit(0);
     }
 }

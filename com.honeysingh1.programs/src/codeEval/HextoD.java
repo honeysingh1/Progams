@@ -23,6 +23,7 @@ public class HextoD {
             }
             System.out.println(tot);
         }
+        buffer.close();
         System.exit(0);
     }
 }

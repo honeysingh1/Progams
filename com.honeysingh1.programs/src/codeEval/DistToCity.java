@@ -30,6 +30,7 @@ public class DistToCity {
                 
             }
         }
+        buffer.close();
         System.exit(0);
     }
 }

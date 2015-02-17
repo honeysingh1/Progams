@@ -28,6 +28,7 @@ public class Next {
 				}
 				System.out.println(st.toString().trim());
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

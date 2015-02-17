@@ -37,6 +37,7 @@ public class MajorElem {
 					}
 				}
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}

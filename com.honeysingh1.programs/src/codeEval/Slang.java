@@ -36,6 +36,7 @@ public class Slang {
 					System.out.println(st);
 				}
 			}
+			in.close();
 		} catch (IOException e) {
 			System.out.println("File Read Error: " + e.getMessage());
 		}
