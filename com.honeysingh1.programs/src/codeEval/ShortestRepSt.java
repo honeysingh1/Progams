@@ -18,7 +18,7 @@ public class ShortestRepSt {
 				
 				if (!line.isEmpty()) {
 					int len = line.length();
-					int p = 0;
+			
 					int flag = 0;
 					for(int i = 1; i < len; i++)
 					{

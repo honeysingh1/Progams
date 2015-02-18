@@ -27,6 +27,7 @@ public class MatrixRot {
 				}
 			}
 		}
+		buffer.close();
 		System.exit(0);
 	}
 }
